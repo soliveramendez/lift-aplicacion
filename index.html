@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+      <link rel="stylesheet" href="assets/css/main.css">
+      <link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+      <title>Lyft</title>
+   </head>
+
+    <body>
+
+          <div id="splash" class="container-fluid">
+            <center>
+             <img alt="logo" src="assets/img/logo-white.png" width="60%"alt="">
+           </center>
+          </div>
+
+            <header class="homepage">
+              <div class="container ">
+                <div class="row text-center">
+                 <div class="col-xs-12">
+                   <img alt="logo" src="assets/img/logo-white.png" width="30%"alt="">
+                </div>
+               </div>
+               <div class="row text-center">
+                <div class="col-xs-12">
+                 <img class="responsive-img" src="assets/img/logo-pink.png" width="50%"alt="">
+               </div>
+              </div>
+              <div class="row text-center">
+               <div class="col-xs-12">
+                <div class="btn-group" role="group" aria-label="...">
+                 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">LOGIN IN</button>
+                 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">SING UP</button>
+               </div>
+              </div>
+             </div>
+            </header>
+
+
+
+
+           <div class="container">
+             <!-- Trigger the modal with a button -->
+             <!-- Modal -->
+             <div class="modal fade" id="myModal" role="dialog">
+               <div class="modal-dialog">
+
+                 <!-- Modal content-->
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                     <h4 class="modal-title">SING UP</h4>
+                   </div>
+                   <div class="modal-body">
+                     <p>JOIN NOW FOR FREE RIDE CREDIT.</p>
+                   </div>
+                   <div class="form-group input-box">
+                     <select class="form-control">
+                       <option value="0">Selecciona tu país</option>
+                       <option value="Chile">Chile</option>
+                       <option value="Peru">Peru</option>
+                       <option value="Colombia">Colombia</option>
+                       <option value="México">Mexico</option>
+                     </select>
+                   </div>
+
+                   <div class="numbers-container input-box">
+                     <label for="numbers" class="sr-only">Celular</label>
+                      <input type="numbers" id="numbers" class="form-control"
+                       placeholder="Ingrese su número">
+
+                       <div class="modal-footer">
+                      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">NEXT</button>
+                      </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+            </div>
+
+                   <section>
+                    <div class="container-modal">
+                   <!-- Trigger the modal with a button -->
+
+                   <!-- Modal -->
+                     <div class="modal fade" id="myModal1" role="dialog">
+                       <div class="modal-dialog">
+                       <!-- Modal content-->
+                         <div class="modal-content">
+                          <div class="modal-header">
+                           <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Verify Phone Number</h4>
+                          </div>
+
+                        <div class="modal-body">
+                         <p>Join now for free ride credit</p>
+                         <input type="cod" id="cod" class="form-control"
+                          placeholder="LAB- _ _ _">
+                          <p>Enter to code send to +52</p>
+                        </div>
+
+                       <div class="modal-footer">
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">NEXT</button>
+                     </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </section>
+
+                 <section>
+                  <div class="container-modal">
+                 <!-- Trigger the modal with a button -->
+
+                 <!-- Modal -->
+                   <div class="modal fade" id="myModal2" role="dialog">
+                     <div class="modal-dialog">
+                     <!-- Modal content-->
+                       <div class="modal-content">
+                        <div class="modal-header">
+                         <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Sig Up</h4>
+                        </div>
+
+                        <div class="name-container input-box">
+                          <label for="name" class="sr-only">Nombre</label>
+                          <input type="text" id="name" class="form-control"
+                          placeholder="Ingrese su nombre">
+                        </div>
+
+                        <div class="lastname-container input-box">
+                          <label for="lastname" class="sr-only">Apellido</label>
+                          <input type="text" id="lastname" class="form-control"
+                          placeholder="Ingrese su apellido">
+                        </div>
+
+                        <div class="email-container input-box">
+                          <label for="inputEmail" class="sr-only">
+                            Correo Electrónico
+                          </label>
+                          <input type="text" id="input-email" class="form-control" placeholder="Ingrese su correo electrónico" autofocus="">
+                        </div>
+
+                        <div class="container">
+                          <form>
+                            <div class="checkbox">
+                              <label><input type="checkbox" value="">I agree to Lyft`ss Terms of Service </label>
+                            </div>
+                          </form>
+                        </div>
+
+
+                    <div class="modal-footer">
+                     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">NEXT</button>
+                   </div>
+                   </div>
+                  </div>
+                 </div>
+                 </div>
+                 </section>
+
+                 <section>
+                  <div class="container-modal">
+                 <!-- Trigger the modal with a button -->
+
+                 <!-- Modal -->
+                   <div class="modal fade" id="myModal3" role="dialog">
+                     <div class="modal-dialog">
+                     <!-- Modal content-->
+                       <div class="modal-content">
+                        <div class="modal-header">
+                         <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">CHEQUEO LISTO!!!</h4>
+                        </div>
+
+                      <div class="modal-body">
+                        <div class="container-fluid">
+                          <div class="row text-center">
+                           <div class="col-xs-12 check">
+                            <img class="responsive-img" src="assets/img/check.png" width="50%"alt="">
+                           </div>
+                          </div>
+                      </div>
+
+                     <div class="modal-footer">
+                      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">NEXT</button>
+                   </div>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </section>
+
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+          <script src="assets/js/app.js"></script>
+        </body>
+       </html>

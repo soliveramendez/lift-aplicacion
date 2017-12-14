@@ -1,0 +1,61 @@
+/* HEADER ================================*/
+#splash{
+  background: linear-gradient(to bottom,#FF00BF, #2b1e66);
+  height: 100vh;
+ }
+#splash img{
+  padding-top: 50%;
+}
+/* SECTOR DE BODY ================================*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+  color:#fff;
+}
+.homepage{
+  background-image: url(../img/homepages.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.text-center .homepage{
+  width: 100%;
+}
+.text-center img{
+ padding-top: 30%;
+}
+.btn-group{
+ padding-top: 10%;
+}
+
+.navbar{
+  position: 0;
+  min-height: 0;
+  margin-bottom: 0;
+  border: 0;
+}
+.navbar-default img{
+  z-index: 2;
+  position: fixed;
+}
+.logo2{
+ text-align: center;
+}
+.modal-content{
+ color:#000;
+}
+.check{
+  background-image: url(../img/homepages.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top:30em;
+  z-index:1;
+}
